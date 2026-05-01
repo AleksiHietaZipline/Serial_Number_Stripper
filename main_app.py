@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Serial Number Stripper")
+st.title("Serial Number Formatter")
 
 if "serial_input" not in st.session_state:
     st.session_state.serial_input = ""
